@@ -1,0 +1,11 @@
+{
+	"name":"GoHire",
+	"version":"0.0.9",
+	"port":8080,
+	"address":[
+		"localhost"
+	],
+	"fileHiddenPath": "../client/front",
+	"filePublicPath": "./filePublic"
+
+}

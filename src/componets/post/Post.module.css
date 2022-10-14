@@ -1,0 +1,44 @@
+.block {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 0 30px 0;
+    padding: 15px;
+    box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 10px 15px 0 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100px;
+}
+
+.blockName {
+    display: flex;
+}
+
+.userName {
+    margin: 0 10px 0 0;
+}
+
+.outMes {
+    opacity: 0.5;
+}
+
+.blockAnswer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

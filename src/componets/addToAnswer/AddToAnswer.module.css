@@ -1,0 +1,30 @@
+.block {
+    margin: 10px;
+}
+
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer
+}
+
+.btn:hover {
+    color: blue;
+}
+
+.inputBlock {
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.inp {
+    border: none;
+    outline: none;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
